@@ -77,7 +77,7 @@ const Work = () => {
             <JobLength>Sep 2013 - Jun 2020</JobLength>
             <JobDesc>
               Formally known as Brighter Inc. until it's acquisition by Cigna
-              Health, I started as a sole front-end UI developer in a start-up
+              Health, I started as the sole front-end UI developer in a start-up
               team of 8 developers.
             </JobDesc>
             <JobDesc>
