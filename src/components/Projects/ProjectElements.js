@@ -53,11 +53,14 @@ export const ProjectItem = styled.li`
     }
   }
   &:not(:last-of-type) {
-    margin-bottom: 10rem;
+    margin-bottom: 18rem;
   }
 
   @media screen and (max-width: 768px) {
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    &:not(:last-of-type) {
+      margin-bottom: 10rem;
+    }
     .project-content {
       display: flex;
       flex-direction: column;
