@@ -54,10 +54,11 @@ export const GlobalStyles = createGlobalStyle`
         max-width: 1000px;
         margin: 0 auto;
         padding: 100px 0;
-        min-height: 100vh;
+        min-height: 80vh;
         transition: transform 1s, opacity 1s;
         @media screen and (max-width: 768px) {
             padding: 80px 0;
+            min-height: auto;
         }
         &.section--hidden {
             opacity: 0;

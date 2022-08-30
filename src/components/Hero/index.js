@@ -33,7 +33,7 @@ const Hero = () => {
         offset={-180}
         duration={500}
       >
-        Learn More
+        About Me
       </HeroScroll>
     </HeroSection>
   );

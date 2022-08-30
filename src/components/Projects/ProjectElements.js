@@ -2,6 +2,11 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 export const ProjectContainer = styled.section`
   margin-bottom: 100px;
+  padding-top: 0;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+    padding-top: 100px;
+  }
 `;
 
 export const ProjectHeader = styled.h4``;

@@ -76,7 +76,7 @@ const Navbar = ({ toggle }) => {
                   to="project-section"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-250}
                   duration={500}
                 >
                   Projects
