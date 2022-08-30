@@ -60,6 +60,12 @@ export const GlobalStyles = createGlobalStyle`
             padding: 80px 0;
             min-height: auto;
         }
+        &#work-section {
+            min-height: 70vh;
+            @media screen and (max-width: 768px) {
+                min-height: auto;
+            }
+        }
         &.section--hidden {
             opacity: 0;
             transform: translateY(8rem);
