@@ -58,8 +58,8 @@ const Work = () => {
             <JobLength>Jul 2020 - Present</JobLength>
             <JobDesc>
               I took time-off during COVID due to personal reasons. I also made
-              use of this period to learn React and strengthen my knowledge on
-              current technologies.
+              use of this period to strengthen my knowledge and be kept
+              up-to-date with current technologies.
             </JobDesc>
           </TabsContent>
           <TabsContent
