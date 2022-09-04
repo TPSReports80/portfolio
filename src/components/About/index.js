@@ -47,6 +47,7 @@ const About = () => {
             <TechItem>HTML5</TechItem>
             <TechItem>CSS3</TechItem>
             <TechItem>Javascript (ES6+)</TechItem>
+            <TechItem>Typescript</TechItem>
             <TechItem>React</TechItem>
             <TechItem>Styled Components</TechItem>
             <TechItem>Material-UI</TechItem>
