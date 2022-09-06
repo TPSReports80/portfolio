@@ -1,7 +1,7 @@
 import React from "react";
 import { CgMenu } from "react-icons/cg";
 import { useSpring, animated } from "react-spring";
-import Resume from "../../static/Resume-Mike-Joo.pdf";
+import Resume from "../../static/Michael_Joo.pdf";
 import {
   Nav,
   NavbarContainer,
