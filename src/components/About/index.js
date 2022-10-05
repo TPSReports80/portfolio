@@ -36,9 +36,6 @@ const About = () => {
           <AboutDesc>
             I'm am also a proud United States Marine Corps Veteran. Semper
             Fidelis!
-            <IconHolder>
-              <MdMilitaryTech />
-            </IconHolder>
           </AboutDesc>
           <AboutTech>
             Here are some technologies I have worked with or have knowledge of:
