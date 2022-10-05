@@ -34,8 +34,8 @@ const About = () => {
             developers.
           </AboutDesc>
           <AboutDesc>
-            I'm am also a proud United States Marine War Veteran who served
-            during Operation Iraqi Freedom. Semper Fidelis!
+            I'm am also a proud United States Marine Corps Veteran. Semper
+            Fidelis!
             <IconHolder>
               <MdMilitaryTech />
             </IconHolder>
