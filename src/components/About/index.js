@@ -46,6 +46,7 @@ const About = () => {
             <TechItem>Javascript (ES6+)</TechItem>
             <TechItem>Typescript</TechItem>
             <TechItem>React</TechItem>
+            <TechItem>Redux | Redux Toolkit</TechItem>
             <TechItem>Styled Components</TechItem>
             <TechItem>Material-UI</TechItem>
             <TechItem>AJAX</TechItem>
