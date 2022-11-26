@@ -55,7 +55,7 @@ const Work = () => {
             className={toggleState === 1 ? "active-content" : "tab-content"}
           >
             <JobTitle>Career Break</JobTitle>
-            <JobLength>Jul 2020 - Present</JobLength>
+            <JobLength>Sep 2020 - Present</JobLength>
             <JobDesc>
               I took some time-off due to personal reasons. I also made use of
               this period to strengthen my knowledge and be kept up-to-date with
@@ -74,19 +74,29 @@ const Work = () => {
                 @ Cigna Digital
               </JobLink>
             </JobTitle>
-            <JobLength>Sep 2013 - Jun 2020</JobLength>
+            <JobLength>Sep 2013 - Jul 2020</JobLength>
             <JobDesc>
-              Formally known as Brighter Inc. until it's acquisition by Cigna
-              Health, I started as the sole front-end UI developer in a start-up
-              team of 8 developers.
+              Formally known as Brighter Inc. I was initially brought on as the
+              only front-end developer in a start-up team of 7 developers to
+              help build and maintain the company's websites through multiple
+              versions and updates.
             </JobDesc>
             <JobDesc>
-              I worked closely with in-house designers to transform PSD mocks
-              into pixel-perfect webpages for the flagship website.
+              Worked closely with the UI designer to ensure all pages were built
+              per spec and collaborated on responsive design and layout.
             </JobDesc>
             <JobDesc>
-              Mentored incoming UI developers on current coding standards and
-              assisted other fellow developers with front-end issues.
+              Lead the transformation of our sites to ensure all pages were W3C
+              compliant (semantic labeling, color contrast, keyboard navigation,
+              screen reader) and assisted in its documentation using Confluence.
+            </JobDesc>
+            <JobDesc>
+              Mentored incoming junior front-end developers on current company
+              coding standards.
+            </JobDesc>
+            <JobDesc>
+              Participated in bi-weekly to daily Scrum meetings using Agile
+              methodology with 2-to-3-week long sprints.
             </JobDesc>
           </TabsContent>
           <TabsContent
@@ -103,8 +113,8 @@ const Work = () => {
             </JobTitle>
             <JobLength>Jun 2012 - Sep 2013</JobLength>
             <JobDesc>
-              Worked in a 3 person UI team that delivered UI web development for
-              clients such as but not limited to:
+              Worked in a 6 person development team that delivered UI web
+              development for clients such as but not limited to:
             </JobDesc>
             <ClientList>
               <Client>DirectTV</Client>
