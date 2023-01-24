@@ -57,9 +57,9 @@ const Work = () => {
             <JobTitle>Career Break</JobTitle>
             <JobLength>Sep 2020 - Present</JobLength>
             <JobDesc>
-              I took some time-off due to personal reasons. I also made use of
-              this period to strengthen my knowledge and be kept up-to-date with
-              current technologies.
+              I took time-off and a break from my career due to the pandemic and
+              for personal reasons. I also took advantage of this time to keep
+              up to date with current technologies.
             </JobDesc>
           </TabsContent>
           <TabsContent
