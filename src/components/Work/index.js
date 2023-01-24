@@ -59,7 +59,7 @@ const Work = () => {
             <JobDesc>
               I took time-off and a break from my career due to the pandemic and
               for personal reasons. I also took advantage of this time to keep
-              up to date with current technologies.
+              up-to-date with current technologies.
             </JobDesc>
           </TabsContent>
           <TabsContent
