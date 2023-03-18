@@ -35,17 +35,23 @@ const Work = () => {
             className={toggleState === 1 ? "active-tab" : "tab"}
             onClick={() => toggleTab(1)}
           >
-            Career Break
+            SparkCognition Government Systems
           </Tabs>
           <Tabs
             className={toggleState === 2 ? "active-tab" : "tab"}
             onClick={() => toggleTab(2)}
           >
-            Brighter Inc.
+            Career Break
           </Tabs>
           <Tabs
             className={toggleState === 3 ? "active-tab" : "tab"}
             onClick={() => toggleTab(3)}
+          >
+            Brighter Inc.
+          </Tabs>
+          <Tabs
+            className={toggleState === 4 ? "active-tab" : "tab"}
+            onClick={() => toggleTab(4)}
           >
             Square One Solutions Inc.
           </Tabs>
@@ -54,8 +60,23 @@ const Work = () => {
           <TabsContent
             className={toggleState === 1 ? "active-content" : "tab-content"}
           >
+            <JobTitle>
+              Software Engineer III{" "}
+              <JobLink target="_blank" to={{ pathname: "//sparkgov.ai/" }}>
+                @ SparkCognition Government Systems (SGS)
+              </JobLink>
+            </JobTitle>
+            <JobLength>Mar 2023 - Present</JobLength>
+            <JobDesc>
+              Front-End Engineer for a start-up specializing in providing
+              AI-based software solutions for national and military defense.
+            </JobDesc>
+          </TabsContent>
+          <TabsContent
+            className={toggleState === 2 ? "active-content" : "tab-content"}
+          >
             <JobTitle>Career Break</JobTitle>
-            <JobLength>Sep 2020 - Present</JobLength>
+            <JobLength>Sep 2020 - Feb 2023</JobLength>
             <JobDesc>
               I took time-off and a break from my career due to the pandemic and
               for personal reasons. I also took advantage of this time to keep
@@ -63,7 +84,7 @@ const Work = () => {
             </JobDesc>
           </TabsContent>
           <TabsContent
-            className={toggleState === 2 ? "active-content" : "tab-content"}
+            className={toggleState === 3 ? "active-content" : "tab-content"}
           >
             <JobTitle>
               Senior UI Developer{" "}
@@ -100,7 +121,7 @@ const Work = () => {
             </JobDesc>
           </TabsContent>
           <TabsContent
-            className={toggleState === 3 ? "active-content" : "tab-content"}
+            className={toggleState === 4 ? "active-content" : "tab-content"}
           >
             <JobTitle>
               UI Developer{" "}
