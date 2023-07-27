@@ -42,15 +42,16 @@ const About = () => {
           </AboutTech>
           <TechList>
             <TechItem>Javascript | ES6+</TechItem>
-            <TechItem>Node.js</TechItem>
             <TechItem>Typescript</TechItem>
-            <TechItem>React | React Hooks</TechItem>
+            <TechItem>React</TechItem>
+            <TechItem>Next.js</TechItem>
+            <TechItem>Node.js</TechItem>
             <TechItem>Redux | Redux Toolkit</TechItem>
-            <TechItem>Next.JS</TechItem>
+            <TechItem>Effector</TechItem>
             <TechItem>HTML5</TechItem>
             <TechItem>CSS3</TechItem>
-            <TechItem>Styled Components</TechItem>
             <TechItem>Material-UI</TechItem>
+            <TechItem>Styled Components</TechItem>
           </TechList>
         </AboutLeft>
         <AboutRight>
