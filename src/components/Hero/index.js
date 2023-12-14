@@ -18,13 +18,10 @@ const Hero = () => {
       <IntroP>Hi, my name is</IntroP>
       <HeroName>Mike Joo.</HeroName>
       <HeroTitle>I am a Front-End Developer</HeroTitle>
-      <HeroDesc>
+      <HeroDesc style={{ marginBottom: "36px" }}>
         who specializes in building clean and scalable applications for the
         modern web. I am currently residing in Los Angeles, California.
       </HeroDesc>
-      <HeroSiteP>
-        This site is built using React and Styled Components.
-      </HeroSiteP>
       <HeroScroll
         className="box-link"
         to="about-section"

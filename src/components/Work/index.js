@@ -71,6 +71,10 @@ const Work = () => {
               Front-End Engineer for a start-up specializing in providing
               AI-based software solutions for national and military defense.
             </JobDesc>
+            <JobDesc>
+              Tech Stack: Typescript, React, Next.js, Effector, Cypress, MUI,
+              Docker, Gitlab
+            </JobDesc>
           </TabsContent>
           <TabsContent
             className={toggleState === 2 ? "active-content" : "tab-content"}

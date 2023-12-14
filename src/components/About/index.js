@@ -41,17 +41,17 @@ const About = () => {
             Here are some technologies I have worked with or have knowledge of:
           </AboutTech>
           <TechList>
-            <TechItem>Javascript | ES6+</TechItem>
+            <TechItem>Javascript</TechItem>
             <TechItem>Typescript</TechItem>
             <TechItem>React</TechItem>
             <TechItem>Next.js</TechItem>
-            <TechItem>Node.js</TechItem>
             <TechItem>Redux | Redux Toolkit</TechItem>
             <TechItem>Effector</TechItem>
-            <TechItem>HTML5</TechItem>
-            <TechItem>CSS3</TechItem>
+            <TechItem>HTML5 | CSS3</TechItem>
             <TechItem>Material-UI</TechItem>
-            <TechItem>Styled Components</TechItem>
+            <TechItem>Cypress</TechItem>
+            <TechItem>Docker</TechItem>
+            <TechItem>Gitlab</TechItem>
           </TechList>
         </AboutLeft>
         <AboutRight>
