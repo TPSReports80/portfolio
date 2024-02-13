@@ -49,6 +49,7 @@ const About = () => {
             <TechItem>Effector</TechItem>
             <TechItem>HTML5 | CSS3</TechItem>
             <TechItem>Material-UI</TechItem>
+            <TechItem>ElasticSearch | Search UI</TechItem>
             <TechItem>Cypress</TechItem>
             <TechItem>Docker</TechItem>
             <TechItem>Gitlab</TechItem>

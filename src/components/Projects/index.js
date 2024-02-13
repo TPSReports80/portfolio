@@ -26,7 +26,7 @@ const Project = () => {
         <HeaderArrow className="header--arrow">
           <AiOutlineDoubleRight />
         </HeaderArrow>
-        Projects for Fun
+        Projects for Fun (needs updating)
       </ProjectHeader>
       <ProjectList>
         <ProjectItem>

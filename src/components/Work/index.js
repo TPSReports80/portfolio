@@ -72,8 +72,8 @@ const Work = () => {
               AI-based software solutions for national and military defense.
             </JobDesc>
             <JobDesc>
-              Tech Stack: Typescript, React, Next.js, Effector, Cypress, MUI,
-              Docker, Gitlab
+              Tech Stack: Typescript, React, Next.js, Effector, ElasticSearch,
+              Payload CMS, Cypress, MUI, Docker, Gitlab
             </JobDesc>
           </TabsContent>
           <TabsContent
