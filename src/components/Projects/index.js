@@ -33,50 +33,6 @@ const Project = () => {
           <ProjectContent className="project-content">
             <div>
               <ProjectOverline>Featured Project</ProjectOverline>
-              <ProjectTitle>NextLevel Food App</ProjectTitle>
-              <ProjectDesc>
-                <p>
-                  An aesthically beautiful food website that lets you search for
-                  meals and share your favorite recipes!
-                </p>
-              </ProjectDesc>
-              <ProjectTechList className="tech-list">
-                <ProjectTechItem>Next.js 14</ProjectTechItem>
-                <ProjectTechItem>React</ProjectTechItem>
-                <ProjectTechItem>Typescript</ProjectTechItem>
-                <ProjectTechItem>Better-Sqlite3</ProjectTechItem>
-              </ProjectTechList>
-              <ProjectLinks className="project-links">
-                <ProjectLink
-                  target="_blank"
-                  to={{
-                    pathname: "//github.com/TPSReports80/nextlevel-foodies",
-                  }}
-                >
-                  <FiGithub />
-                </ProjectLink>
-                <ProjectLink
-                  target="_blank"
-                  to={{ pathname: "//nextlevel-foods.netlify.app" }}
-                >
-                  <FiExternalLink />
-                </ProjectLink>
-              </ProjectLinks>
-            </div>
-          </ProjectContent>
-          <ProjectImageContent className="project-image-content">
-            <ProjectImageLink
-              target="_blank"
-              to={{ pathname: "//nextlevel-foods.netlify.app" }}
-            >
-              <ProjectImage src="/images/nextlevel.png" />
-            </ProjectImageLink>
-          </ProjectImageContent>
-        </ProjectItem>
-        <ProjectItem>
-          <ProjectContent className="project-content">
-            <div>
-              <ProjectOverline>Featured Project</ProjectOverline>
               <ProjectTitle>MeTube Video App</ProjectTitle>
               <ProjectDesc>
                 <p>
@@ -118,6 +74,51 @@ const Project = () => {
             </ProjectImageLink>
           </ProjectImageContent>
         </ProjectItem>
+        <ProjectItem>
+          <ProjectContent className="project-content">
+            <div>
+              <ProjectOverline>Featured Project</ProjectOverline>
+              <ProjectTitle>NextLevel Food App</ProjectTitle>
+              <ProjectDesc>
+                <p>
+                  An aesthically beautiful food website that lets you search for
+                  meals and share your favorite recipes!
+                </p>
+              </ProjectDesc>
+              <ProjectTechList className="tech-list">
+                <ProjectTechItem>Next.js 14</ProjectTechItem>
+                <ProjectTechItem>React</ProjectTechItem>
+                <ProjectTechItem>Typescript</ProjectTechItem>
+                <ProjectTechItem>Better-Sqlite3</ProjectTechItem>
+              </ProjectTechList>
+              <ProjectLinks className="project-links">
+                <ProjectLink
+                  target="_blank"
+                  to={{
+                    pathname: "//github.com/TPSReports80/nextlevel-foodies",
+                  }}
+                >
+                  <FiGithub />
+                </ProjectLink>
+                <ProjectLink
+                  target="_blank"
+                  to={{ pathname: "//nextlevel-foods.netlify.app" }}
+                >
+                  <FiExternalLink />
+                </ProjectLink>
+              </ProjectLinks>
+            </div>
+          </ProjectContent>
+          <ProjectImageContent className="project-image-content">
+            <ProjectImageLink
+              target="_blank"
+              to={{ pathname: "//nextlevel-foods.netlify.app" }}
+            >
+              <ProjectImage src="/images/nextlevel.png" />
+            </ProjectImageLink>
+          </ProjectImageContent>
+        </ProjectItem>
+
         <ProjectItem>
           <ProjectContent className="project-content">
             <div>
