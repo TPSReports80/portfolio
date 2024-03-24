@@ -44,13 +44,18 @@ const About = () => {
             <TechItem>Javascript</TechItem>
             <TechItem>Typescript</TechItem>
             <TechItem>React</TechItem>
+            <TechItem>REST API</TechItem>
             <TechItem>Next.js</TechItem>
             <TechItem>Redux | Redux Toolkit</TechItem>
             <TechItem>Effector</TechItem>
             <TechItem>HTML5 | CSS3</TechItem>
+            <TechItem>SASS | Less</TechItem>
             <TechItem>Material-UI</TechItem>
+            <TechItem>Bootstrap</TechItem>
+            <TechItem>Node.js</TechItem>
             <TechItem>ElasticSearch | Search UI</TechItem>
-            <TechItem>Cypress</TechItem>
+            <TechItem>Jest | Cypress</TechItem>
+            <TechItem>Webpack</TechItem>
             <TechItem>Docker</TechItem>
             <TechItem>Gitlab</TechItem>
           </TechList>
