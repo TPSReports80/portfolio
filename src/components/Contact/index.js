@@ -40,8 +40,9 @@ const Contact = () => {
         Get In Touch
       </ContactHeader>
       <ContactText>
-        Thank you for visiting my site! I am currently open to new
-        opportunities. Please feel free to drop a line if you'd like to chat!
+        Thank you for visiting my site! I am currently not open to new
+        opportunities, but please feel free to drop a line if you'd like to
+        chat!
       </ContactText>
       <Mailto />
     </ContactSection>
