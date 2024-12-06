@@ -46,8 +46,11 @@ const About = () => {
             <TechItem>React</TechItem>
             <TechItem>REST API</TechItem>
             <TechItem>Next.js</TechItem>
+            <TechItem>Payload CMS</TechItem>
+            <TechItem>Sanity CMS</TechItem>
             <TechItem>Redux | Redux Toolkit</TechItem>
             <TechItem>Effector</TechItem>
+            <TechItem>Tailwind</TechItem>
             <TechItem>HTML5 | CSS3</TechItem>
             <TechItem>SASS | Less</TechItem>
             <TechItem>Material-UI</TechItem>

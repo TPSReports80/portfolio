@@ -35,23 +35,29 @@ const Work = () => {
             className={toggleState === 1 ? "active-tab" : "tab"}
             onClick={() => toggleTab(1)}
           >
-            SparkCognition Government Systems
+            ExtraHop Inc.
           </Tabs>
           <Tabs
             className={toggleState === 2 ? "active-tab" : "tab"}
             onClick={() => toggleTab(2)}
           >
-            Career Break
+            SparkCognition Government Systems
           </Tabs>
           <Tabs
             className={toggleState === 3 ? "active-tab" : "tab"}
             onClick={() => toggleTab(3)}
           >
-            Brighter Inc.
+            Career Break
           </Tabs>
           <Tabs
             className={toggleState === 4 ? "active-tab" : "tab"}
             onClick={() => toggleTab(4)}
+          >
+            Brighter Inc.
+          </Tabs>
+          <Tabs
+            className={toggleState === 5 ? "active-tab" : "tab"}
+            onClick={() => toggleTab(5)}
           >
             Square One Solutions Inc.
           </Tabs>
@@ -61,12 +67,30 @@ const Work = () => {
             className={toggleState === 1 ? "active-content" : "tab-content"}
           >
             <JobTitle>
+              Web Developer III{" "}
+              <JobLink target="_blank" to={{ pathname: "//sparkgov.ai/" }}>
+                ExtraHop Inc.
+              </JobLink>
+            </JobTitle>
+            <JobLength>May 2023 - Present</JobLength>
+            <JobDesc>
+              Web Developer for a startup specializing in cybersecurity and
+              providing AI-based network intelligence.
+            </JobDesc>
+            <JobDesc>
+              Tech Stack: React, Next.js, Sanity CMS, Tailwind, Gitlab
+            </JobDesc>
+          </TabsContent>
+          <TabsContent
+            className={toggleState === 2 ? "active-content" : "tab-content"}
+          >
+            <JobTitle>
               Software Engineer III{" "}
               <JobLink target="_blank" to={{ pathname: "//sparkgov.ai/" }}>
                 @ SparkCognition Government Systems (SGS)
               </JobLink>
             </JobTitle>
-            <JobLength>Mar 2023 - Present</JobLength>
+            <JobLength>Mar 2023 - Feb 2024</JobLength>
             <JobDesc>
               Front-End Engineer for a start-up specializing in providing
               AI-based software solutions for national and military defense.
@@ -77,7 +101,7 @@ const Work = () => {
             </JobDesc>
           </TabsContent>
           <TabsContent
-            className={toggleState === 2 ? "active-content" : "tab-content"}
+            className={toggleState === 3 ? "active-content" : "tab-content"}
           >
             <JobTitle>Career Break</JobTitle>
             <JobLength>Sep 2020 - Feb 2023</JobLength>
@@ -88,7 +112,7 @@ const Work = () => {
             </JobDesc>
           </TabsContent>
           <TabsContent
-            className={toggleState === 3 ? "active-content" : "tab-content"}
+            className={toggleState === 4 ? "active-content" : "tab-content"}
           >
             <JobTitle>
               Senior UI Developer{" "}
@@ -125,7 +149,7 @@ const Work = () => {
             </JobDesc>
           </TabsContent>
           <TabsContent
-            className={toggleState === 4 ? "active-content" : "tab-content"}
+            className={toggleState === 5 ? "active-content" : "tab-content"}
           >
             <JobTitle>
               UI Developer{" "}
