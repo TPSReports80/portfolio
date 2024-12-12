@@ -36,8 +36,8 @@ const Project = () => {
               <ProjectTitle>MetaGym App</ProjectTitle>
               <ProjectDesc>
                 <p>
-                  Looking to shed some holiday pounds? Come check out our
-                  classes at MetaGym!
+                  Looking to shed some holiday pounds? Come check out our fully
+                  responsive website and see what our gym as to offer!
                 </p>
               </ProjectDesc>
               <ProjectTechList className="tech-list">
