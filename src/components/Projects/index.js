@@ -33,6 +33,51 @@ const Project = () => {
           <ProjectContent className="project-content">
             <div>
               <ProjectOverline>Featured Project</ProjectOverline>
+              <ProjectTitle>MetaGym App</ProjectTitle>
+              <ProjectDesc>
+                <p>
+                  Looking to shed some holiday pounds? Come check out our
+                  classes at MetaGym!
+                </p>
+              </ProjectDesc>
+              <ProjectTechList className="tech-list">
+                <ProjectTechItem>Typescript</ProjectTechItem>
+                <ProjectTechItem>React</ProjectTechItem>
+                <ProjectTechItem>Tailwind</ProjectTechItem>
+                <ProjectTechItem>Framer Motion</ProjectTechItem>
+                <ProjectTechItem>Vite</ProjectTechItem>
+              </ProjectTechList>
+              <ProjectLinks className="project-links">
+                <ProjectLink
+                  target="_blank"
+                  to={{
+                    pathname: "//github.com/TPSReports80/evogym-typescript",
+                  }}
+                >
+                  <FiGithub />
+                </ProjectLink>
+                <ProjectLink
+                  target="_blank"
+                  to={{ pathname: "//mikejoodev-gym-app.netlify.app" }}
+                >
+                  <FiExternalLink />
+                </ProjectLink>
+              </ProjectLinks>
+            </div>
+          </ProjectContent>
+          <ProjectImageContent className="project-image-content">
+            <ProjectImageLink
+              target="_blank"
+              to={{ pathname: "//mikejoodev-gym-app.netlify.app" }}
+            >
+              <ProjectImage src="/images/metagym-screenshot.png" />
+            </ProjectImageLink>
+          </ProjectImageContent>
+        </ProjectItem>
+        <ProjectItem>
+          <ProjectContent className="project-content">
+            <div>
+              <ProjectOverline>Featured Project</ProjectOverline>
               <ProjectTitle>MeTube Video App</ProjectTitle>
               <ProjectDesc>
                 <p>
@@ -119,50 +164,6 @@ const Project = () => {
           </ProjectImageContent>
         </ProjectItem>
 
-        <ProjectItem>
-          <ProjectContent className="project-content">
-            <div>
-              <ProjectOverline>Featured Project</ProjectOverline>
-              <ProjectTitle>My Gym App</ProjectTitle>
-              <ProjectDesc>
-                <p>
-                  A simple yet highly versatile application that searches
-                  through thousands of workouts depending on your search
-                  criterias. Try out similar workouts and watch youtube videos
-                  that are specific to your workout.
-                </p>
-              </ProjectDesc>
-              <ProjectTechList className="tech-list">
-                <ProjectTechItem>VS Code</ProjectTechItem>
-                <ProjectTechItem>React</ProjectTechItem>
-                <ProjectTechItem>Material-UI</ProjectTechItem>
-                <ProjectTechItem>RapidAPI</ProjectTechItem>
-              </ProjectTechList>
-              <ProjectLinks className="project-links">
-                <ProjectLink
-                  target="_blank"
-                  to={{ pathname: "//github.com/TPSReports80/my-gym" }}
-                >
-                  <FiGithub />
-                </ProjectLink>
-                <ProjectLink
-                  target="_blank"
-                  to={{ pathname: "//my-gym-joo.netlify.app" }}
-                >
-                  <FiExternalLink />
-                </ProjectLink>
-              </ProjectLinks>
-            </div>
-          </ProjectContent>
-          <ProjectImageContent className="project-image-content">
-            <ProjectImageLink
-              target="_blank"
-              to={{ pathname: "//my-gym-joo.netlify.app" }}
-            >
-              <ProjectImage src="/images/my-gym.png" />
-            </ProjectImageLink>
-          </ProjectImageContent>
-        </ProjectItem>
         <ProjectItem>
           <ProjectContent className="project-content">
             <div>
