@@ -43,6 +43,7 @@ const Project = () => {
               <ProjectTechList className="tech-list">
                 <ProjectTechItem>Typescript</ProjectTechItem>
                 <ProjectTechItem>React</ProjectTechItem>
+                <ProjectTechItem>React Hook Forms</ProjectTechItem>
                 <ProjectTechItem>Tailwind</ProjectTechItem>
                 <ProjectTechItem>Framer Motion</ProjectTechItem>
                 <ProjectTechItem>Vite</ProjectTechItem>
