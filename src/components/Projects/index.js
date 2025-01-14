@@ -33,6 +33,54 @@ const Project = () => {
           <ProjectContent className="project-content">
             <div>
               <ProjectOverline>Featured Project</ProjectOverline>
+              <ProjectTitle>UpTunes App</ProjectTitle>
+              <ProjectDesc>
+                <p>
+                  Come check out the hottest albums from your favorite artists!
+                  Add your favorite albums to your collection and listen to them
+                  on the go!
+                </p>
+              </ProjectDesc>
+              <ProjectTechList className="tech-list">
+                <ProjectTechItem>Typescript</ProjectTechItem>
+                <ProjectTechItem>React</ProjectTechItem>
+                <ProjectTechItem>Tailwind</ProjectTechItem>
+                <ProjectTechItem>SCSS</ProjectTechItem>
+                <ProjectTechItem>Framer Motion</ProjectTechItem>
+                <ProjectTechItem>Last FM API</ProjectTechItem>
+                <ProjectTechItem>Vite</ProjectTechItem>
+              </ProjectTechList>
+              <ProjectLinks className="project-links">
+                <ProjectLink
+                  target="_blank"
+                  to={{
+                    pathname: "//github.com/TPSReports80/uptunes-app",
+                  }}
+                >
+                  <FiGithub />
+                </ProjectLink>
+                <ProjectLink
+                  target="_blank"
+                  to={{ pathname: "//uptunes.netlify.app" }}
+                >
+                  <FiExternalLink />
+                </ProjectLink>
+              </ProjectLinks>
+            </div>
+          </ProjectContent>
+          <ProjectImageContent className="project-image-content">
+            <ProjectImageLink
+              target="_blank"
+              to={{ pathname: "//uptunes.netlify.app/" }}
+            >
+              <ProjectImage src="/images/uptunes.png" />
+            </ProjectImageLink>
+          </ProjectImageContent>
+        </ProjectItem>
+        <ProjectItem>
+          <ProjectContent className="project-content">
+            <div>
+              <ProjectOverline>Featured Project</ProjectOverline>
               <ProjectTitle>MetaGym App</ProjectTitle>
               <ProjectDesc>
                 <p>
