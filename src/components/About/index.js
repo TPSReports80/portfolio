@@ -50,7 +50,7 @@ const About = () => {
             <TechItem>Sanity CMS</TechItem>
             <TechItem>Redux | Redux Toolkit</TechItem>
             <TechItem>Effector</TechItem>
-            <TechItem>Tailwind</TechItem>
+            <TechItem>Tailwind CSS</TechItem>
             <TechItem>HTML5 | CSS3</TechItem>
             <TechItem>SASS | Less</TechItem>
             <TechItem>Material-UI</TechItem>
@@ -60,7 +60,8 @@ const About = () => {
             <TechItem>Jest | Cypress</TechItem>
             <TechItem>Webpack</TechItem>
             <TechItem>Docker</TechItem>
-            <TechItem>Gitlab</TechItem>
+            <TechItem>Github Copilot</TechItem>
+            <TechItem>Cursor</TechItem>
           </TechList>
         </AboutLeft>
         <AboutRight>
