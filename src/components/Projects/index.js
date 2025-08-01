@@ -33,6 +33,59 @@ const Project = () => {
           <ProjectContent className="project-content">
             <div>
               <ProjectOverline>Featured Project</ProjectOverline>
+              <ProjectTitle>Mikestock App</ProjectTitle>
+              <ProjectDesc>
+                <p>
+                  A fullstack inventory management application built on Next.js
+                  and fully hosted on AWS!
+                </p>
+              </ProjectDesc>
+              <ProjectTechList className="tech-list">
+                <ProjectTechItem>Typescript</ProjectTechItem>
+                <ProjectTechItem>React</ProjectTechItem>
+                <ProjectTechItem>Next.js</ProjectTechItem>
+                <ProjectTechItem>Tailwind</ProjectTechItem>
+                <ProjectTechItem>Redux-Toolkit</ProjectTechItem>
+                <ProjectTechItem>RTK-Query</ProjectTechItem>
+                <ProjectTechItem>Recharts</ProjectTechItem>
+                <ProjectTechItem>MUI Data Grid</ProjectTechItem>
+                <ProjectTechItem>Node.js</ProjectTechItem>
+                <ProjectTechItem>Express</ProjectTechItem>
+                <ProjectTechItem>Prisma</ProjectTechItem>
+                <ProjectTechItem>Postgresql</ProjectTechItem>
+                <ProjectTechItem>AWS: EC2 | RDS | Amplify | S3</ProjectTechItem>
+              </ProjectTechList>
+              <ProjectLinks className="project-links">
+                <ProjectLink
+                  target="_blank"
+                  to={{
+                    pathname: "//github.com/TPSReports80/mikestock",
+                  }}
+                >
+                  <FiGithub />
+                </ProjectLink>
+                <ProjectLink
+                  target="_blank"
+                  to={{ pathname: "//master.dc8plfvvwtd6j.amplifyapp.com" }}
+                >
+                  <FiExternalLink />
+                </ProjectLink>
+              </ProjectLinks>
+            </div>
+          </ProjectContent>
+          <ProjectImageContent className="project-image-content">
+            <ProjectImageLink
+              target="_blank"
+              to={{ pathname: "//master.dc8plfvvwtd6j.amplifyapp.com" }}
+            >
+              <ProjectImage src="/images/mikestock.png" />
+            </ProjectImageLink>
+          </ProjectImageContent>
+        </ProjectItem>
+        <ProjectItem>
+          <ProjectContent className="project-content">
+            <div>
+              <ProjectOverline>Featured Project</ProjectOverline>
               <ProjectTitle>UpTunes App</ProjectTitle>
               <ProjectDesc>
                 <p>

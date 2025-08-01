@@ -43,25 +43,26 @@ const About = () => {
           <TechList>
             <TechItem>Javascript</TechItem>
             <TechItem>Typescript</TechItem>
-            <TechItem>React</TechItem>
+            <TechItem>React | React-Query</TechItem>
             <TechItem>REST API</TechItem>
             <TechItem>Next.js</TechItem>
-            <TechItem>Payload CMS</TechItem>
-            <TechItem>Sanity CMS</TechItem>
-            <TechItem>Redux | Redux Toolkit</TechItem>
-            <TechItem>Effector</TechItem>
+            <TechItem>Payload & Sanity CMS</TechItem>
+            <TechItem>Redux Toolkit | RTK-Query</TechItem>
             <TechItem>Tailwind CSS</TechItem>
             <TechItem>HTML5 | CSS3</TechItem>
             <TechItem>SASS | Less</TechItem>
             <TechItem>Material-UI</TechItem>
+            <TechItem>Recharts</TechItem>
             <TechItem>Bootstrap</TechItem>
             <TechItem>Node.js</TechItem>
-            <TechItem>ElasticSearch | Search UI</TechItem>
+            <TechItem>Express</TechItem>
+            <TechItem>Postgresql</TechItem>
             <TechItem>Jest | Cypress</TechItem>
             <TechItem>Webpack</TechItem>
             <TechItem>Docker</TechItem>
             <TechItem>Github Copilot</TechItem>
             <TechItem>Cursor</TechItem>
+            <TechItem>AWS (EC2, RDS, Amplify, S3)</TechItem>
           </TechList>
         </AboutLeft>
         <AboutRight>
